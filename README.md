@@ -10,9 +10,11 @@ Repository: https://github.com/charlinelach/calendar
 # Development
 
 ## Usage Instructions
-To utilize this website/application, end users may access it via [Deploy link](https://charlinelach.github.io/calendar/). From this website, the user can perform clicks to take the quiz.
+To utilize this website/application, end users may access it via [deploy link](https://charlinelach.github.io/calendar/). From this website, the user can perform clicks to take the quiz.
 
-![Screenshot of the Quiz]()
+![Screenshot of the Calendar](screenshot.png)
+
+![Calendar GIF](calendar.gif)
 
 <br>
 If/when users want to add schedule items to the future (must be less than 24 hours away), they may do so by adding a new event to a past or current time periods. Past time has a gray background; current time has a red background.
