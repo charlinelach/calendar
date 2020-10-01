@@ -21,22 +21,45 @@
     </header>
     <div class="container">
         <!-- Timeblocks go here -->
-        <!-- <div class="hour" col="3">9:00AM</div>
-        <div class="row descripton" col="7"></div>
-        <div class="saveBtn input-group-append" col="2">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-plus-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM8.5 8.5a.5.5 0 0 0-1 0V10H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V11H10a.5.5 0 0 0 0-1H8.5V8.5z"/>
-                  </svg>
-            </button>
-        </div>
-    </div> -->
+        <!-- <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Time</th>
+                <th scope="col">Event</th>
+                <th scope="col">Save</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table> -->
 
-    <div class="input-group">
+        <!-- Time period -->
+        <div class="input-group">
+            <!-- Hour column -->
             <div class="input-group-prepend">
                 <span class="input-group-text">09:00AM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <!-- Text/event area -->
+            <textarea id="row9" class="form-control" aria-label="With textarea"></textarea>
+            <!-- Button to save -->
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -51,7 +74,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">10:00AM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row10" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -66,7 +89,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">11:00AM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row11" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -81,7 +104,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">12:00PM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row12" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -96,7 +119,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">01:00PM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row13" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -111,7 +134,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">02:00PM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row14" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -126,7 +149,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">03:00PM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row15" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -141,7 +164,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">04:00PM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row16" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -156,7 +179,7 @@
             <div class="input-group-prepend">
                 <span class="input-group-text">05:00PM CST</span>
             </div>
-            <textarea class="form-control" aria-label="With textarea"></textarea>
+            <textarea id="row17" class="form-control" aria-label="With textarea"></textarea>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">
                     <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event-fill"
@@ -168,13 +191,12 @@
             </div>
         </div>
 
-
-
-
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script type = "text/JavaScript" src = " https://MomentJS.com/downloads/moment.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
