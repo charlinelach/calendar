@@ -1,26 +1,15 @@
-// What is the current day?
-// What time is it? Or at least the hour.
-// What is the action when that certain button is clicked?
-// How to save that text in the box?
-// How to update the background colors based on time of day?
-
-
+// Time & date variable creation
 var currentDay = document.querySelector("#currentDay");
 var currentTime = moment().format('dddd, MMMM Do YYYY').toString();
 currentDay.innerHTML = currentTime;
 
-// Find out how to get current hour using momentjs library
-// compare all 9 hour rows to current hour value
-// if row is before current hour set class to past
-// if row is the current hour set class to present
-// if row is after the current hour set class to future
-
+// Checks the current hour and selects the appropriate background color
 function momentTime() {
     var currentHour = moment().hour();
 
-    for (i = 9; i <= 17; i++) {
-        // var currentRow = document.querySelector("#row" + i);
+    for (var i = 9; i <= 17; i++) {
         var currentRow = $("#row" + i);
+
         if (i == currentHour) {
             currentRow.addClass("present");
         }
@@ -33,6 +22,23 @@ function momentTime() {
     }
 }
 
-$(document).ready(function() {
+// Button click action
+$("#button9").click(function () {
+    var calText = $("#row9").val();
+    localStorage.setItem("row9", calText);
+});
+
+function eventSave() {
+    // Text is written in the field
+    var btn = $("#button" + j);
+
+    var calText = $("#row" + j);
+    localStorage.setItem("", calText);
+}
+
+// Page function is triggered by this
+$(document).ready(function () {
+    var row9 = document.querySelector("#row9");
+    row9.innerHTML = localStorage.getItem("row9");
     momentTime();
 });
