@@ -7,6 +7,9 @@ Deployed at: https://charlinelach.github.io/calendar/
 <br>
 Repository: https://github.com/charlinelach/calendar
 
+## Technologies
+HTML, CSS, JavaScript
+
 # Development
 
 ## Usage Instructions
@@ -30,4 +33,5 @@ Shout out to the wonderful instructor(s) and TAs!
 Another thank you to fellow students and asking questions before they form in my head.
 
 # License Information
-N/A
+MIT License <br>
+Copyright (c) 2020
